@@ -6,7 +6,7 @@
 
     <groupId>me.st28.mcb</groupId>
     <artifactId>pluginversionreport</artifactId>
-    <version>0.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>PluginVersionReport</name>
     <description>Generates a list of plugins and their current versions on startup and via command</description>
     <url>http://stealthyone.com/</url>
