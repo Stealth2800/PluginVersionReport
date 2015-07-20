@@ -77,7 +77,7 @@ public final class PluginVersionReport extends JavaPlugin {
 
     public void generateReport() {
         try {
-            PrintWriter writer = new PrintWriter(new File(location + File.separator + fileName + ".txt"));
+            PrintWriter writer = new PrintWriter(new File(location + File.separator + fileName + ".txt"), "UTF-8");
 
             List<Plugin> plugins = new ArrayList<>();
             Collections.addAll(plugins, Bukkit.getPluginManager().getPlugins());
