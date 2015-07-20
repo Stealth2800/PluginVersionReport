@@ -1,0 +1,12 @@
+name: ${project.name}
+version: ${project.version}
+description: '${project.description}'
+depend: []
+softdepend: []
+authors: [${project.authors}]
+website: ${project.url}
+main: ${project.mainClass}
+commands:
+  pluginversionreport:
+    description: 'Generates a plugin report.'
+    aliases: [versionreport, pvm]
